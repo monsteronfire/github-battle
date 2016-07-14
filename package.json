@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/monsteronfire/github-battle/issues"
   },
-  "homepage": "https://github.com/monsteronfire/github-battle#readme"
+  "homepage": "https://github.com/monsteronfire/github-battle#readme",
+  "dependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
+  }
 }
