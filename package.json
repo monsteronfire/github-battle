@@ -1,0 +1,19 @@
+{
+  "name": "github-battle",
+  "version": "1.0.0",
+  "description": "React JS Program - Github Battle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monsteronfire/github-battle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monsteronfire/github-battle/issues"
+  },
+  "homepage": "https://github.com/monsteronfire/github-battle#readme"
+}
