@@ -4,7 +4,8 @@
   "description": "React JS Program - Github Battle",
   "main": "index.js",
   "scripts": {
-    "production": "node_modules/.bin/webpack -p"
+    "production": "node_modules/.bin/webpack -p",
+    "start": "node_modules/.bin/webpack-dev-server"
   },
   "repository": {
     "type": "git",
