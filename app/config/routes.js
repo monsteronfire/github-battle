@@ -10,7 +10,7 @@ var Home = require('../components/Home');
 var routes = (
   <Router>
     <Route path='/' component={Main}>
-      <Route path='/home' component={Home} />
+      <IndexRoute component={Home} />
       <Route path='playerOne' header='Player One' component={PromptContainer} />
       <Route path='playerTwo/:playerOne' header='Player Two' component={PromptContainer} />
       <Route path='battle' component={ConfirmBattleContainer} />
