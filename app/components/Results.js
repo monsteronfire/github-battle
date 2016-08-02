@@ -3,7 +3,7 @@ var PropTypes = React.PropTypes;
 
 function Results(props) {
   return (
-
+    <div></div>
   )
 }
 
