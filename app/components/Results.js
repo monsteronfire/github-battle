@@ -1,13 +1,13 @@
 var React = require('react');
 var PropTypes = React.PropTypes;
 
-function puke(object) {
-  return <pre>{JSON.stringify(object, 2, ' ')}</pre>
+function dump(object) {
+  return <pre>{JSON.stringify(object, null, ' ')}</pre>
 }
 
 function Results(props) {
   return (
-    <div>Results: { puke(props) }</div>
+    <div>Results: { dump(props) }</div>
   )
 }
 
