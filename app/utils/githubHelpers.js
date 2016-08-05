@@ -40,7 +40,7 @@ var helpers = {
   getPlayersInfo: function (players) {
     //fetch some data from Github
     return axios.all(players.map(function(username) {
-      return getUserInfo(username);
+      return getUserInfo(username)
     }))
     .then(function(info) {
       return info.map(function(user) {
@@ -54,7 +54,7 @@ var helpers = {
     var playerOneData = getPlayersData(players[0]);
     var playerTwoData = getPlayersData(players[1]);
 
-    return axios.all(playerOneData, playerTwoData)
+    return axios.all([playerOneData, playerTwoData])
       .then(calculateScores)
       .catch(function(err) {console.warn('Error in getPlayerInfo: ', err)})
   }
