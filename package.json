@@ -20,10 +20,12 @@
   "homepage": "https://github.com/monsteronfire/github-battle#readme",
   "dependencies": {
     "axios": "^0.13.1",
+    "css-loader": "^0.23.1",
     "react": "^15.3.0",
     "react-addons-css-transition-group": "^15.3.0",
     "react-dom": "^15.2.1",
-    "react-router": "^2.6.0"
+    "react-router": "^2.6.0",
+    "style-loader": "^0.13.1"
   },
   "devDependencies": {
     "babel-core": "^6.10.4",
