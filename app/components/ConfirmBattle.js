@@ -5,7 +5,7 @@ var ReactRouter = require('react-router');
 var Link = ReactRouter.Link;
 var UserDetailsWrapper = require('./UserDetailsWrapper');
 var UserDetails = require('./UserDetails');
-var MainContainer = require('./MainContainer');
+var MainContainer = require('../containers/MainContainer');
 var Loading = require('./Loading');
 
 function ConfirmBattle(props) {
