@@ -30,7 +30,7 @@ function Results(props) {
   if (props.scores[0] === props.scores[1]) {
     return (
       <MainContainer>
-        <h1>It's A Tie!</h1>
+        <h1>A Tie!</h1>
         <StartOver />
       </MainContainer>
     )
